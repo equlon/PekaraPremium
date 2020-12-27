@@ -451,12 +451,22 @@ NAVBAR
   }
   .jaja {
     margin-left: 1px;
+    margin-top: -1px;
+  }
+  .jaja p {
+    font-size: 14px;
   }
   .brasno {
     margin-right: 1px;
   }
+  .brasno p {
+    font-size: 14px;
+  }
   .mleko {
     margin-left: 1px;
+  }
+  .mleko p {
+    font-size: 14px;
   }
 }
 
