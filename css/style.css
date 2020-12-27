@@ -4,9 +4,8 @@
   font-family: "montserrat",sans-serif;
 }
 body {
-  background-image: url(F:\Users\Nikola\Desktop\Sajt\img\blurone.jpg);
-  background-size: cover;
   height: 100%;
+  background-color: #f8f9fa;
 }
 /*
 
@@ -14,27 +13,328 @@ ID
 
 */
 
+#kontakt {
+  padding-top: 50px;
+  text-align: center;
+}
+
+#dostava i {
+  padding-top: 10px;
+}
+
+#sveze {
+  width: 33%;
+  float: left;
+}
+
+#dostava {
+  padding-top: 50px;
+  text-align: center;
+}
+
+#vremedostava i {
+  padding-top: 10px;
+}
+
+#vremedostava {
+  padding-top: 50px;
+  text-align: center;
+}
+
+#radnovreme {
+  padding-top: 50px;
+  text-align: center;
+}
+
+#radnovreme i {
+  padding-top: 10px;
+}
+
+#ukusno {
+  width: 33%;
+  float: left;
+  margin-left: 6px;
+  display: inline-block;
+}
+
+#zdravo {
+  width: 33%;
+  float: right;
+  display: inline-block;
+}
+
+#footer1 {
+  height: 75px;
+  background-color: #212529;
+  width: 100%;
+}
+
+#kvalitet {
+  height: 200px;
+  padding-bottom: 50px;
+  text-align: center;
+}
+
 /*
 
 KLASE
 
 */
 
+.sveze {
+  font-size: 15px;
+}
+
+.zdravo {
+  font-size: 15px;
+}
+
+.ukusno {
+  font-size: 15px;
+}
+
+.gray1 {
+  color: #adb5bd;
+}
+
+.copyright {
+  color: #adb5bd;
+  font-size: 10px;
+  text-align: center;
+  padding-top: 35px;
+}
+
+.pages{
+  float: right;
+  line-height: 75px;
+}
+.pages a{
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 0 15px;
+  transition: 0.4s;
+}
+
+.pages a:hover {
+  color: #3498db;
+}
+
+.naslovlevo {
+  font-weight: bold;
+  font-size: 15px;
+  float: left;
+  color: #fff;
+  margin-top: 20px;
+  margin-left: 55px;
+}
+
+.adresa {
+  font-size: 10px;
+  position: absolute;
+  margin-top: 40px;
+  margin-left: 55px;
+  color: #adb5bd;
+}
+
+.svezenaslov {
+  padding-bottom: 10px;
+  padding-top: 10px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.ukusnonaslov {
+  padding-bottom: 10px;
+  padding-top: 10px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.zdravonaslov {
+  padding-bottom: 10px;
+  padding-top: 10px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.dostavanaslov {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.vremenaslov {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.radnovremenaslov {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+/*.dostavavreme {
+  font-weight: bold;
+  font-size: 20px;
+  text-transform: uppercase;
+  padding-top: 10px;
+  padding-bottom: 5px;
+}*/
+
+.kontaktnaslov {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.kliknime {
+  background-color: tomato;
+  width: 150px;
+  height: 50px;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.klikni {
+  padding-top: 25px;
+}
+
+.button {
+  background-color: #4CAF50; /* Green */
+  border: 1px solid #4CAF50;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  margin-bottom: 35px;
+}
+
+.button:hover {
+  background-color: #fff;
+  color: #4CAF50;
+}
+
+.onama {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 25px;
+  padding: 60px;
+}
+
+.proizvodi {
+  padding-top: 10px;
+  background-image: url(../img/pecivablurovanje.jpg);
+  background-size: cover;
+  border-bottom: 1px solid black;
+  border-top: 1px solid black;
+}
+
+.proizvodi p {
+  display: inline-block;
+  color: rgb(255, 227, 227);
+}
+
+.brasno {
+  height: 150px;
+  margin-right: 70px;
+  background-size: cover;
+  color: #fff;
+  text-align: right;
+  padding-right: 5px;
+}
+
+.mleko {
+  height: 150px;
+  margin-left: 70px;
+  background-size: cover;
+  color: #fff;
+  text-align: left;
+  padding-left: 5px;
+}
+
+.jaja { 
+  margin-top: 35px;
+  margin-left: 70px;
+  height: 150px;
+  background-size: cover;
+  color: #fff;
+  padding-left: 5px;
+}
+
+.sekcija1 {
+  background: url(../img/hleb.jpg);
+  background-color: #464646;
+  background-size: cover; 
+  height: 300px;
+  border-bottom: 1px solid black;
+}
+
+.proizvodi p {
+  margin-top: 10px;
+}
+
+.sekcija1 p {
+  text-align: center;
+  color: rgb(235, 235, 235);
+  padding-top: 25px;
+}
+
+.sekcija1 .title {
+  text-transform: uppercase;
+  color: #fff;
+  text-align: center;
+  padding-top: 60px;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.box {
+  margin: 0px auto;
+  height: 300px;
+  width: 500px;
+  position: relative;
+  background: #3498db;
+  margin-top: 25px;
+}
+
+.box .slika {
+  float: right;
+}
+
+/*
+
+NAVBAR
+
+*/
+
 .header{
-  height: 100px;
-  background: #34495e;
+  height: 50px;
+  background: #2c2f33;
   padding: 0 20px;
   color: #fff;
 }
 .logo{
-  line-height: 100px;
+  line-height: 50px;
   float: left;
   text-transform: uppercase;
 }
 
 .menu{
   float: right;
-  line-height: 100px;
+  line-height: 50px;
 }
 .menu a{
   color: #fff;
@@ -43,6 +343,7 @@ KLASE
   padding: 0 10px;
   transition: 0.4s;
 }
+
 .show-menu-btn,.hide-menu-btn{
   transition: 0.4s;
   font-size: 30px;
@@ -53,12 +354,12 @@ KLASE
   float: right;
 }
 .show-menu-btn i{
-  line-height: 100px;
+  line-height: 50px;
 }
 .menu a:hover,
 .show-menu-btn:hover,
 .hide-menu-btn:hover{
-  color: #3498db;
+  font-weight: bold;
 }
 
 #chk{
@@ -68,12 +369,12 @@ KLASE
 }
 
 .content{
-  padding: 0 20px;
+  padding: 0 10px;
 }
 .content img{
   width: 100%;
   max-width: 700px;
-  margin: 20px 0;
+  margin: 10px 0;
 }
 .content p{
   text-align: justify;
@@ -107,4 +408,55 @@ KLASE
   #chk:checked ~ .menu{
     right: 0;
   }
+  ul.pages {
+    line-height: 75px;
+    margin-right: 5px;
+  }
+  ul.pages a {
+    padding: 0 5px;
+  }
+  p.adresa {
+    font-size: 7px;
+    margin-left: 6px;
+  }
+  p.copyright {
+    font-size: 7px;
+  }
+  p.naslovlevo {
+    margin-left: 6px;
+  }
+  p.onama {
+    padding: 20px;
+  }
+  p.sveze {
+    font-size: 11px;
+  }
+  p.ukusno {
+    font-size: 11px;
+  }
+  p.zdravo {
+    font-size: 11px;
+  }
+  #kvalitet {
+    padding-bottom: 30px;
+    height: 360px;
+  }
+  #zdravo {
+    float: left;
+    margin-left: 35%;
+    margin-top: -55px;
+  }
+  #ukusno {
+    float: right;
+  }
+  .jaja {
+    margin-left: 1px;
+  }
+  .brasno {
+    margin-right: 1px;
+  }
+  .mleko {
+    margin-left: 1px;
+  }
 }
+

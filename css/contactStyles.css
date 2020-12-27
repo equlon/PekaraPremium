@@ -180,7 +180,7 @@
 }
   
 .sekcija1 {
-    background: url(img/hleb.jpg);
+    background: url(../img/hleb.jpg);
     background-color: #464646;
     background-size: cover; 
     height: 300px;
@@ -308,6 +308,23 @@
   }
     #chk:checked ~ .menu{
       right: 0;
+  }
+  ul.pages {
+    line-height: 75px;
+    margin-right: 5px;
+  }
+  ul.pages a {
+    padding: 0 5px;
+  }
+  p.adresa {
+    font-size: 7px;
+    margin-left: 6px;
+  }
+  p.copyright {
+    font-size: 7px;
+  }
+  p.naslovlevo {
+    margin-left: 6px;
   }
 }
   
