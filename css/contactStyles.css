@@ -197,7 +197,7 @@
     text-transform: uppercase;
     color: #fff;
     text-align: center;
-    padding-top: 60px;
+    padding-top: 80px;
     font-size: 25px;
     font-weight: bold;
 }
@@ -226,6 +226,9 @@
     background: #2c2f33;
     padding: 0 20px;
     color: #fff;
+    position: fixed;
+    right: 0;
+    left: 0;
 }
 .logo{
     line-height: 50px;
